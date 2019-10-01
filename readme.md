@@ -1,28 +1,28 @@
 # Sistem Informasi Perhotelan (SIP)
 ## User
-    * Kasir
     * Resepsionis
+    * Bell Boy
     * Pelanggan
 ## Web
-    kasir :
+    Resepsionis :
         * Login
-        * Input Data Resepsionis
-            - Notifikasi Email data login ke resepsionis
+        * Input Data Bell Boy
+            - Notifikasi Email data login ke Bell Boy
         * Input Department
         * Assign Kerjaan
-            - Notifikasi Email ke resepsionis
+            - Notifikasi Email ke Bell Boy
         * Verfikasi Hasil kerjaan
         * Fitur Diskusi
 ## Mobile
-    Resepsionis :
+    Bell Boy :
         * Login
         * Ubah Password
         * Cek Daftar Kerjaan 
         * Fitur diskusi
         * Update Status Kerjaan
-            - Notifikasi Email ke kasir
+            - Notifikasi Email ke Resepsionis
 
     Pelanggan :
         * Pemesanan makanan 
         * Pemberitahuan apabila terjadi masalah
-            - Notifikasi email ke kasir 
+            - Notifikasi email ke Resepsionis 
